@@ -2,7 +2,7 @@
 
 [![Build and deploy](https://github.com/open-pioneer/trails-starter/actions/workflows/test-and-build.yml/badge.svg)](https://github.com/open-pioneer/trails-starter/actions/workflows/test-and-build.yml) [![Audit dependencies (daily)](https://github.com/open-pioneer/trails-starter/actions/workflows/audit-dependencies.yml/badge.svg)](https://github.com/open-pioneer/trails-starter/actions/workflows/audit-dependencies.yml)
 
-[Samples](https://open-pioneer.github.io/trails-demo/starter/) | [API Documentation](https://open-pioneer.github.io/trails-demo/starter/docs/) | [User manual](https://github.com/open-pioneer/trails-starter/tree/main/docs)
+| [API Documentation](https://open-pioneer.github.io/trails-demo/starter/docs/) | [User manual](https://github.com/open-pioneer/trails-starter/tree/main/docs)
 
 ## Quick start
 
