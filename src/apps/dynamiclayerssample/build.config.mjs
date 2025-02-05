@@ -3,13 +3,11 @@
 import { defineBuildConfig } from "@open-pioneer/build-support";
 
 export default defineBuildConfig({
-    entryPoints: [],
+    styles: "./app.css",
+    i18n: ["en", "de"],
     services: {
-        GreeterImpl: {
-            provides: "sample-package.Greeter"
+        MapProvider: {
+            provides: ["map.MapConfigProvider"]
         }
-    },
-    publishConfig: {
-        strict: false
     }
 });

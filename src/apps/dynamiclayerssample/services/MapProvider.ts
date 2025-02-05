@@ -5,7 +5,7 @@ import TileLayer from "ol/layer/Tile";
 import OSM from "ol/source/OSM";
 
 export const MAP_ID = "main";
-export class MainMapProvider implements MapConfigProvider {
+export class MapProvider implements MapConfigProvider {
     mapId = MAP_ID;
 
     async getMapConfig(): Promise<MapConfig> {
@@ -13,12 +13,13 @@ export class MainMapProvider implements MapConfigProvider {
             initialView: {
                 kind: "position",
                 center: { x: 847541, y: 6793584 },
-                zoom: 14
+                zoom: 5
             },
             projection: "EPSG:3857",
             layers: [
                 new SimpleLayer({
-                    title: "OpenStreetMap",
+                    title: "BaseMap",
+                    id: "base",
                     olLayer: new TileLayer({
                         source: new OSM(),
                         properties: { title: "OSM" }
