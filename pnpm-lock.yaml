@@ -344,7 +344,7 @@ importers:
         specifier: 'catalog:'
         version: 2.1.3(@types/node@18.19.41)(happy-dom@15.11.0)(jsdom@25.0.1)(sass@1.80.3)
 
-  src/apps/myapp:
+  src/apps/dynamiclayerssample:
     dependencies:
       '@chakra-ui/icons':
         specifier: 'catalog:'

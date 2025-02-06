@@ -3,7 +3,9 @@ if [ "$NO_VERIFY" ]; then
     exit 0
 fi
 
-if [  "master" == "$branch" ]; then
+
+branch="$(git rev-parse --abbrev-ref HEAD)"
+if [  "main" == "$branch" ]; then
     echo '--- check code style ---'
     pnpm exec lint-staged
 
