@@ -1,0 +1,17 @@
+{
+    "name": "js-ol-app",
+    "private": true,
+    "dependencies": {
+        "@chakra-ui/icons": "catalog:",
+        "@emotion/react": "catalog:",
+        "@emotion/styled": "catalog:",
+        "@open-pioneer/map": "catalog:",
+        "@open-pioneer/notifier": "catalog:",
+        "@open-pioneer/runtime": "catalog:",
+        "ol": "catalog:",
+        "react": "catalog:",
+        "react-dom": "catalog:",
+        "react-icons": "catalog:",
+        "react-use": "catalog:"
+    }
+}
