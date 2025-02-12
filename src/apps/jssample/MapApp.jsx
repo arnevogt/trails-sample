@@ -5,6 +5,7 @@ import { MapContainer } from "@open-pioneer/map";
 import { SectionHeading, TitledSection } from "@open-pioneer/react-utils";
 import { Notifier } from "@open-pioneer/notifier";
 import { MAP_ID } from "./services";
+import { HelloWorld } from "./HelloWorldComponent";
 
 export function MapApp() {
     return (
@@ -21,6 +22,7 @@ export function MapApp() {
             >
                 <Flex flex="1" direction="column" position="relative">
                     <MapContainer mapId={MAP_ID} role="main"></MapContainer>
+                    <HelloWorld></HelloWorld>
                 </Flex>
             </TitledSection>
         </Flex>
